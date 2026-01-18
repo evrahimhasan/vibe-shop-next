@@ -33,7 +33,7 @@ const Testimonials = () => {
         }
     ];
     return (
-        <section className="bg-white py-20">
+        <section className="bg-white py-20 rounded-xl">
             <div className="">
 
                 {/* Section Title */}

@@ -1,3 +1,5 @@
+# [Client Live Link](https://vibe-shop-next.vercel.app/)
+
 # 🛍️ VibeShop
 
 VibeShop is a simple e-commerce frontend application built with **Next.js (App Router)** and **Tailwind CSS**.  

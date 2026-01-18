@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <div className="space-y-10">
       <Banner></Banner>
+      <Features></Features>
       <ProductsPreview></ProductsPreview>
       <WhyUs></WhyUs>
       <Testimonials></Testimonials>
-      <Features></Features>
       <CTA></CTA>
       <Contact></Contact>
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CTA = () => {
     return (
-        <section className="bg-sky-500 py-14 px-4 text-center text-white">
+        <section className="bg-sky-500 py-14 px-4 text-center text-white rounded-xl">
             <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
                 Need Help Choosing the Right Product?
             </h2>

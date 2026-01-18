@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Banner = () => {
     return (
-        <section className=" relative overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-700 text-white">
+        <section className=" relative overflow-hidden bg-gradient-to-br rounded-lg from-blue-600 via-blue-700 to-indigo-700 text-white">
             <div className="px-6 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                 {/* LEFT CONTENT */}
