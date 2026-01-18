@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 
 const Banner = () => {
     return (
@@ -19,13 +20,14 @@ const Banner = () => {
                     </p>
 
                     <div className="mt-8 flex gap-4">
-                        <button className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold shadow hover:bg-blue-100 transition">
+                        <Link href="/products"
+                            className="bg-white text-blue-700 px-5 py-2 rounded-xl font-semibold shadow hover:bg-blue-100 transition">
                             View Products
-                        </button>
+                        </Link>
 
-                        <button className="border border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-700 transition">
+                        <Link href="/about-us" className="border border-white/70 px-5 py-2 rounded-xl font-semibold hover:bg-white hover:text-blue-700 transition">
                             Learn More
-                        </button>
+                        </Link>
                     </div>
                 </div>
 

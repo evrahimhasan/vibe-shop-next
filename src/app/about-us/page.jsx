@@ -10,7 +10,6 @@ const AboutUs = () => {
           About <span className='text-sky-500'>Vibe</span><span className='text-blue-500'>Shop</span>
         </h2>
 
-        {/* Short Intro (তোমার দেওয়া text) */}
         <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed">
           Welcome to <span className="text-blue-400 font-semibold">VibeShop</span> – your go-to destination for premium laptops, smartphones, headphones, smartwatches, and more. 
           We bring you the best deals with secure shopping, fast delivery, and 24/7 support. Explore amazing products today!
