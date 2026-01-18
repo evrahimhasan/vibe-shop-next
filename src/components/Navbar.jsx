@@ -23,14 +23,14 @@ const Navbar = () => {
     };
     return (
         <header className="border-b border-gray-300">
-            <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div className="py-3 flex items-center justify-between">
 
                 <Link href="/" className="text-xl font-bold">
                     <span className="text-sky-500">Vibe</span>
                     <span className="text-blue-500">Shop</span>
                 </Link>
 
-                <nav className="hidden md:flex gap-8 text-gray-700 font-medium">
+                <nav className="flex flex-col gap-3 md:flex-row md:gap-8 text-gray-700 font-medium">
                     <Link href="/" className="hover:text-blue-600">
                         Home
                     </Link>

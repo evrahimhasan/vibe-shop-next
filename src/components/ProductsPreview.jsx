@@ -14,8 +14,8 @@ const ProductsPreview = () => {
             .catch((err) => console.error(err));
     }, []);
     return (
-        <section className="py-12 px-4 md:px-8 bg-gradient-to-b from-gray-950 to-black">
-            <div className="max-w-7xl mx-auto">
+        <section className="bg-gradient-to-b from-gray-950 to-black">
+            <div className="">
                 <h2 className="text-4xl font-bold text-white text-center mb-12">
                     Popular Products
                 </h2>
