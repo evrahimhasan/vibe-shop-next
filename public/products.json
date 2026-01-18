@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphone",
+        "description": "A high-end smartphone featuring a stunning AMOLED display, powerful processor, long-lasting battery, and advanced camera system. Perfect for photography enthusiasts, gamers, and everyday users who want speed and reliability.",
+        "price": 20000,
+        "image": "https://i.ibb.co.com/gFV5Z9XN/c374b96e6a1a138ff64b644fdaf1f666.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "description": "A versatile laptop equipped with a fast multi-core processor, large SSD storage, and dedicated graphics card. Ideal for both work tasks and high-performance gaming, with a sleek design and long battery life.",
+        "price": 50000,
+        "image": "https://i.ibb.co.com/vCqV7Pfm/0571a140c8f2c73d60ad88ffd4a2bbb4.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "description": "Noise-cancelling wireless headphones with superior sound quality, comfortable ear cushions, and long battery life. Perfect for music lovers, travelers, and anyone who wants immersive audio experience.",
+        "price": 15000,
+        "image": "https://i.ibb.co.com/zHPCs2KL/1f624165b713659425218d24fbe184ab.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Smartwatch",
+        "description": "A smartwatch with fitness tracking, heart rate monitoring, sleep analysis, and notifications for calls, messages, and apps. Ideal for maintaining an active lifestyle while staying connected on the go.",
+        "price": 10000,
+        "image": "https://i.ibb.co.com/1t8XJYfL/296f22bd42781159f9eb28853423841d.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Tablet",
+        "description": "A lightweight and portable tablet with high-resolution display, smooth performance, and long battery life. Great for reading, streaming videos, browsing the web, or casual gaming.",
+        "price": 22000,
+        "image": "https://i.ibb.co.com/4gZRw7SR/9b395490a6d728e0d2a6d17e5891bfed.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Bluetooth Speaker",
+        "description": "Compact Bluetooth speaker with rich, clear sound and deep bass. Features waterproof design, long battery life, and easy connectivity for indoor and outdoor use, making it perfect for parties or travel.",
+        "price": 5000,
+        "image": "https://i.ibb.co.com/Q3t8rmdK/42bc3d66ba45ed6602d1b4fe94bdfd43.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Gaming Console",
+        "description": "Next-generation gaming console with ultra-fast loading times, stunning graphics, and a wide range of exclusive games. Ideal for gamers seeking immersive gameplay and high-performance entertainment.",
+        "price": 40000,
+        "image": "https://i.ibb.co.com/gFVcx8Md/ab2ca44d143c9dc66011f95ec4b69cad.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Camera",
+        "description": "DSLR camera with high-resolution sensor, versatile lens options, and advanced settings for professional photography. Perfect for capturing stunning portraits, landscapes, and action shots with clarity.",
+        "price": 35000,
+        "image": "https://i.ibb.co.com/hRYZHxjR/8d0f40b4225bdf1a1b704445552b3a4e.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Keyboard",
+        "description": "Mechanical keyboard with customizable RGB lighting, responsive keys, and ergonomic design. Suitable for gamers, writers, and professionals who value speed, accuracy, and style in typing.",
+        "price": 3000,
+        "image": "https://i.ibb.co.com/XR7q5V9/1029d145e37b3652d02e98ccd2307fde.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Mouse",
+        "description": "Ergonomic gaming mouse with high-precision sensor, customizable buttons, and adjustable DPI. Provides comfort for long gaming sessions or office work while enhancing productivity and control.",
+        "price": 1500,
+        "image": "https://i.ibb.co.com/2Y3w7zNT/046e1607085f2ddde993f6c3868db7ab.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Monitor",
+        "description": "27-inch 4K UHD monitor with vivid colors, high refresh rate, and ultra-thin bezels. Perfect for gaming, professional design work, or watching movies with incredible detail and clarity.",
+        "price": 25000,
+        "image": "https://i.ibb.co.com/Y4j5Z18J/e562132e1f511e590204094b40127cf3.jpg"
+    },
+    {
+        "id": 12,
+        "name": "External Hard Drive",
+        "description": "2TB external hard drive offering fast data transfer, durable build, and ample storage for documents, photos, videos, and backups. Ideal for students, professionals, and creatives who need extra storage space.",
+        "price": 6000,
+        "image": "https://i.ibb.co.com/TM06XGNk/e8b7c6a9d62d178319ca0b0d31037c40.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Fitness Tracker",
+        "description": "A fitness tracker that monitors your heart rate, steps, calories burned, and sleep patterns. Helps you set and achieve fitness goals, stay motivated, and maintain a healthy lifestyle.",
+        "price": 7000,
+        "image": "https://i.ibb.co.com/JwnqvzH9/57ebd9f2db14c138e2fb4ab457add9a7.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Router",
+        "description": "High-speed wireless router with wide coverage, advanced security features, and multiple device connectivity. Perfect for home or office networks that demand reliable internet performance.",
+        "price": 4000,
+        "image": "https://i.ibb.co.com/Xx3HpX2w/631b777a90dc00375644221d67cdf79b.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Drone",
+        "description": "Quadcopter drone with HD camera, GPS navigation, and intelligent flight modes. Capture breathtaking aerial photos and videos, explore new perspectives, and enjoy a fun flying experience.",
+        "price": 30000,
+        "image": "https://i.ibb.co.com/Fq8b3T44/a164e9dac3eb3405d7fcea24acc779c6.jpg"
+    },
+    {
+        "id": 16,
+        "name": "VR Headset",
+        "description": "Virtual reality headset with immersive 3D visuals, precise motion tracking, and comfortable fit. Perfect for gaming, virtual experiences, and exploring new worlds with stunning realism.",
+        "price": 35000,
+        "image": "https://i.ibb.co.com/Nd8fYQ1j/2b53c213f8c131ce403ac1ba8efddb1c.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Smart TV",
+        "description": "50-inch smart TV with 4K UHD resolution, vibrant colors, and access to streaming apps. Provides an exceptional home entertainment experience with crisp visuals and clear audio.",
+        "price": 45000,
+        "image": "https://i.ibb.co.com/MDVzG947/431b9bb8b5de51c9bdeeb0891bdcd205.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Projector",
+        "description": "Portable projector with high-definition display, built-in speakers, and multiple connectivity options. Ideal for movie nights, presentations, or gaming on a big screen anywhere you go.",
+        "price": 20000,
+        "image": "https://i.ibb.co.com/rKZNtQ2t/2323dd438bcee8467536180579eff5dc.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Coffee Maker",
+        "description": "Automatic coffee maker with programmable settings, adjustable brew strength, and easy-to-clean design. Perfect for coffee lovers who want fresh, delicious coffee every morning with minimal effort.",
+        "price": 8000,
+        "image": "https://i.ibb.co.com/YBhjjVyY/a5ed5f34901cac16d384d984345cddf1.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Headphone Stand",
+        "description": "Stylish headphone stand made of durable materials, designed to keep your headphones organized and easily accessible. Adds a sleek touch to your desk while protecting your audio gear.",
+        "price": 1500,
+        "image": "https://i.ibb.co.com/QvsN7Gxd/09de9e44abd55c096ba9d21f203f3e7c.jpg"
+    }
+]
