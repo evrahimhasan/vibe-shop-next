@@ -24,7 +24,7 @@ const ProductDetails = ({ params }) => {
         <div className="max-w-6xl mx-auto p-6 mt-10">
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row">
                 {/* Left Side: Image */}
-                <div className="md:w-1/2 w-full h-80 md:h-auto overflow-hidden">
+                <div className="md:w-1/2 w-full h-80 md:h-[500px] lg:h-[550px] overflow-hidden">
                     <img
                         src={product.image}
                         alt={product.name}

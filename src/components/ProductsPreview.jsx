@@ -3,13 +3,13 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 const ProductsPreview = () => {
-    const [previewItems, setPreviewItems] = useState([]);
+    const [previewProducts, setPreviewProducts] = useState([]);
 
     useEffect(() => {
         fetch("/products.json")
             .then((res) => res.json())
             .then((data) => {
-                setPreviewItems(data.slice(0, 4));
+                setPreviewProducts(data.slice(0, 4));
             })
             .catch((err) => console.error(err));
     }, []);
@@ -21,16 +21,16 @@ const ProductsPreview = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
-                    {previewItems.map((item) => (
+                    {previewProducts.map((product) => (
                         <div
-                            key={item.id}
+                            key={product.id}
                             className="group bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-blue-900/30 transition-all duration-300 transform hover:-translate-y-2"
                         >
                             {/* Image Container */}
                             <div className="relative overflow-hidden h-56 bg-gradient-to-br from-gray-800 to-black">
                                 <img
-                                    src={item.image}
-                                    alt={item.name}
+                                    src={product.image}
+                                    alt={product.name}
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                 />
                                 {/* Optional overlay on hover */}
@@ -40,20 +40,20 @@ const ProductsPreview = () => {
                             {/* Content */}
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-white mb-2 line-clamp-2 group-hover:text-blue-400 transition-colors">
-                                    {item.name}
+                                    {product.name}
                                 </h3>
 
                                 <p className="text-gray-400 text-sm mb-4 line-clamp-3">
-                                    {item.description}
+                                    {product.description}
                                 </p>
 
                                 <div className="flex items-center justify-between">
                                     <p className="text-2xl font-bold text-blue-400">
-                                        ${item.price}
+                                        ${product.price}
                                     </p>
 
                                     <Link
-                                        href={`/items/${item.id}`}
+                                        href={`/products/${product.id}`}
                                         className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-lg transition-colors shadow-md hover:shadow-blue-500/50"
                                     >
                                         View Details
