@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import CTA from "@/components/CTA";
 import Features from "@/components/Features";
 import ProductsPreview from "@/components/ProductsPreview";
 import Testimonials from "@/components/Testimonials";
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyUs></WhyUs>
       <Testimonials></Testimonials>
       <Features></Features>
+      <CTA></CTA>
     </div>
   );
 }
