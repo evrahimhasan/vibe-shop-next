@@ -24,17 +24,19 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header>
-          <Navbar></Navbar>
-        </header>
+        <div className="flex flex-col min-h-screen ">
+          <header>
+            <Navbar></Navbar>
+          </header>
 
-        <main>
-          {children}
-        </main>
+          <main className='flex-1'>
+            {children}
+          </main>
 
-        <footer>
-          <Footer></Footer>
-        </footer>
+          <footer>
+            <Footer></Footer>
+          </footer>
+        </div>
 
       </body>
     </html>
