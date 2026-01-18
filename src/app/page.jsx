@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
 import CTA from "@/components/CTA";
 import Features from "@/components/Features";
 import ProductsPreview from "@/components/ProductsPreview";
@@ -15,6 +16,7 @@ export default function Home() {
       <Testimonials></Testimonials>
       <Features></Features>
       <CTA></CTA>
+      <Contact></Contact>
     </div>
   );
 }
