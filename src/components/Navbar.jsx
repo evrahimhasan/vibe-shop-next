@@ -4,6 +4,7 @@ import Cookies from 'js-cookie';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
+import NavLink from './NavLink';
 
 const Navbar = () => {
     const router = useRouter();
@@ -31,15 +32,15 @@ const Navbar = () => {
                 </Link>
 
                 <nav className="flex flex-col gap-3 md:flex-row md:gap-8 text-gray-700 font-medium">
-                    <Link href="/" className="hover:text-blue-600">
+                    <NavLink href="/" className="hover:text-blue-600">
                         Home
-                    </Link>
-                    <Link href="/products" className="hover:text-blue-600">
+                    </NavLink>
+                    <NavLink href="/products" className="hover:text-blue-600">
                         Products
-                    </Link>
-                    <Link href="/about-us" className="hover:text-blue-600">
+                    </NavLink>
+                    <NavLink href="/about-us" className="hover:text-blue-600">
                         About Us
-                    </Link>
+                    </NavLink>
                 </nav>
 
                 <div>

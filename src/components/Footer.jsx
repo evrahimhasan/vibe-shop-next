@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaEnvelope, FaPhone,
 
 const Footer = () => {
     return (
-        <footer className="bg-[#1c1c1c] text-white pt-12 pb-6 mt-16">
+        <footer className="bg-[#1c1c1c] text-white pt-12 pb-6 mt-10">
             <div className="container mx-auto px-4 grid md:grid-cols-3 gap-10">
 
                 {/* Logo & About */}
@@ -23,22 +23,22 @@ const Footer = () => {
                     <h3 className="text-xl font-semibold mb-4">Useful Links</h3>
                     <ul className="space-y-2 text-gray-300">
                         <li>
-                            <Link href="/" className="hover:text-red-600 transition">
+                            <Link href="/" className="hover:text-sky-500 transition">
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="/features" className="hover:text-red-600 transition">
+                            <Link href="/features" className="hover:text-sky-500 transition">
                                 Features
                             </Link>
                         </li>
                         <li>
-                            <Link href="/about-us" className="hover:text-red-600 transition">
+                            <Link href="/about-us" className="hover:text-sky-500 transition">
                                 About Us
                             </Link>
                         </li>
                         <li>
-                            <Link href="/terms" className="hover:text-red-600 transition">
+                            <Link href="/terms" className="hover:text-sky-500 transition">
                                 Terms & Conditions
                             </Link>
                         </li>
