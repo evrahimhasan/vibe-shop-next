@@ -30,8 +30,4 @@ The project demonstrates routing, authentication, protected pages, and UI compon
 
 ---
 
-## ⚙️ Setup & Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/vibeshop.git
